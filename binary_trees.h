@@ -3,6 +3,7 @@
 
 #include <stddef.h> /* binary tree print */
 #include <stdio.h>
+#include <stdlib.h>/* malloc */
 
 /* Basic Binary tree */
 /**

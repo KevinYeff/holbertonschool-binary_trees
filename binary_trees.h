@@ -3,7 +3,7 @@
 
 #include <stddef.h> /* binary tree print */
 #include <stdio.h>
-#include <stdlib.h>/* malloc */
+#include <stdlib.h> /* malloc */
 
 /* Basic Binary tree */
 /**
@@ -45,4 +45,7 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
 /* task 2 */
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
 
-#endif
+/* task 4 */
+int *binary_tree_is_leaf(const binary_tree_t *node);
+
+#endif /* end of _BINARY_TREE_H_ */

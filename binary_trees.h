@@ -84,4 +84,7 @@ int binary_tree_balance(const binary_tree_t *tree);
 /* task 15 */
 int binary_tree_is_full(const binary_tree_t *tree);
 
+/* task 16 */
+int binary_tree_is_perfect(const binary_tree_t *tree);
+
 #endif /* end of _BINARY_TREE_H_ */
